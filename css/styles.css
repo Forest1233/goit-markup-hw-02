@@ -16,11 +16,31 @@
 body {
     font-family: 'Roboto', sans-serif;
     color: var(--color-slate);
-    background-color: var(--color-white);
-    font-size: 16px;
+    background-color: #2e2f42;
+    font-size: 56px;
     letter-spacing: 0.02em;
 }
 
+.button {
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    background-color: #4D5AE5;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    /* Доданий перехід для зміни кольору фону */
+}
+
+.button:hover {
+    background-color: #404BBF;
+}
+
+.button:focus {
+    background-color: #404BBF;
+}
 .list {
     list-style: none;
 }
