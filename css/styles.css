@@ -11,6 +11,7 @@
     --color-grey: #2e2f42;
     --color-white: #ffffff;
     --color-dairy: #fcfcfc;
+    --text-color: #2e2f42;
 }
 
 body {
@@ -33,7 +34,22 @@ body {
     transition: background-color 0.3s ease;
     /* Доданий перехід для зміни кольору фону */
 }
+.list {
+    /* Дефолтні стилі для списку */
+}
 
+.list__title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--text-color);
+    /* Використання CSS змінної для кольору тексту */
+}
+
+.list__paragraph {
+    line-height: 1.5;
+}
 .button:hover {
     background-color: #404BBF;
 }
@@ -47,6 +63,18 @@ body {
 
 .link {
     text-decoration: none;
+}
+.section-title {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    text-transform: capitalize;
+    color: var(--text-color);
+    /* Використання CSS змінної для кольору тексту */
+}
+
+.section__list {
+    /* Дефолтні стилі для списку */
 }
 
 /* Page Studio */
@@ -142,6 +170,19 @@ body {
     font-size: 16px;
     line-height: 1.5;
 }
+.list-item__title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--text-color);
+    /* Використання CSS змінної для кольору тексту */
+}
+
+.list-item__paragraph {
+    line-height: 1.5;
+}
+    
 
 .works__title {
     color: var(--color-navy-blue);
